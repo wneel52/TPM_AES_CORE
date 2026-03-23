@@ -1,4 +1,4 @@
-# TPM-Style AES Core Wrapper
+# TPM-Style AES Core
 
 ## Overview
 This project implements a TPM-style secure wrapper around an AES core. It includes:
