@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1771340603.471128662, "rt":0.47, "ut":0.33, "st":0.10}}
-{"vcselab":{"timestamp_begin":1771340604.023181025, "rt":0.29, "ut":0.21, "st":0.07}}
-{"link":{"timestamp_begin":1771340604.370905406, "rt":0.18, "ut":0.13, "st":0.06}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1771340603.086573957}
-{"VCS_COMP_START_TIME": 1771340603.086573957}
-{"VCS_COMP_END_TIME": 1771340604.661743949}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -timescale=1ns/1ps -debug_access+all -o simv /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_core.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_encipher_block.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_decipher_block.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_key_mem.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_sbox.v /home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_inv_sbox.v /home/ece558_658_2025/wneel/ECE559/aes-core/sim/tb_aes.v"}
-{"vcs1": {"peak_mem": 316844}}
-{"vcselab": {"peak_mem": 178728}}
