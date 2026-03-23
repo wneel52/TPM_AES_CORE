@@ -1,5 +1,0 @@
-{"vcs1":{"timestamp_begin":1771901185.195706889, "rt":0.10, "ut":0.04, "st":0.03}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1771901184.710549947}
-{"VCS_COMP_START_TIME": 1771901184.710549947}
-{"VCS_COMP_END_TIME": 1771901185.341685402}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -kdb ../rtl/key_activation_compare.v ../sim/tb_key_activation_compare.v -o simv"}
