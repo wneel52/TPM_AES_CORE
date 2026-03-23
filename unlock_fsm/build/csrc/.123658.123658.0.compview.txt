@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1773867591.588826893, "rt":0.24, "ut":0.11, "st":0.08}}
+{"vcselab":{"timestamp_begin":1773867591.912765102, "rt":0.20, "ut":0.14, "st":0.03}}
+{"link":{"timestamp_begin":1773867592.168790158, "rt":0.20, "ut":0.12, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1773867591.339069545}
+{"VCS_COMP_START_TIME": 1773867591.339069545}
+{"VCS_COMP_END_TIME": 1773867592.432878449}
+{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/unlock_fsm.v ../sim/unlock_fsm_tb.sv -o simv"}
+{"vcs1": {"peak_mem": 311816}}
+{"vcselab": {"peak_mem": 162148}}

@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1772747853.118697706, "rt":0.12, "ut":0.04, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1772747852.848045179}
+{"VCS_COMP_START_TIME": 1772747852.848045179}
+{"VCS_COMP_END_TIME": 1772747853.301293824}
+{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/key_commit_buffer.v ../../comparator/rtl/key_activation_compare.v ../sim/tb_key_commit_buffer.sv -o simv"}
+{"vcs1": {"peak_mem": 296580}}

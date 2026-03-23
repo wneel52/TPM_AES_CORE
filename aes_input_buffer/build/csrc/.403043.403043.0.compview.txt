@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1773948719.613535710, "rt":0.12, "ut":0.05, "st":0.04}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1773948719.349409208}
+{"VCS_COMP_START_TIME": 1773948719.349409208}
+{"VCS_COMP_END_TIME": 1773948719.797126782}
+{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/aes_input_block_buffer.v ../sim/tb_aes_input_block_buffer.sv -o simv"}
+{"vcs1": {"peak_mem": 295592}}

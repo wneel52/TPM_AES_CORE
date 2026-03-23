@@ -1,0 +1,99 @@
+0
+26
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/synopsys/vcs/vcs/W-2024.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libvirsim.so /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/liberrorinf.so /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs/vcs/W-2024.09/include
+-Mxllcflags=
+-full64
+-gen_obj
+-o simv
+-picarchive
+-sverilog
+/opt/synopsys/vcs/vcs/W-2024.09/linux64/bin/vcs1
+simv
+../rtl/unlock_fsm.v
+../sim/unlock_fsm_tb.sv
+58
+XDG_SESSION_ID=51244
+XDG_RUNTIME_DIR=/run/user/1328
+W3264_NO_HOST_CHECK=1
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/synopsys/verdi/verdi/W-2024.09
+VENDOR=unknown
+VCS_PYTHON3=/opt/synopsys/vcs/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/opt/synopsys/vcs/vcs/W-2024.09
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs/vcs/W-2024.09/linux64
+SYSTEM_CDS_LIB_DIR=/opt/cadence/ic251_hotfix/install/tools/dfII/samples
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=128.119.202.128 54935 172.19.84.133 22
+SSH_CLIENT=128.119.202.128 54935 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SPECTRE_DEFAULTS=-E
+SNPS_VCS_PYTHON3=/opt/synopsys/vcs/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/opt/synopsys/vcs/vcs/W-2024.09/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=128.119.202.128
+QRC_HOME=/opt/cadence/qrc
+PDK_DIR=/opt/cadence/freePDK45/FreePDK45
+OVA_UUM=0
+OSTYPE=linux
+OA_UNSUPPORTED_PLAT=linux_rhel60
+OA_HOME=/opt/cadence/ic251_hotfix/install/oa_v22.62.011
+MODULES_USE_COMPAT_VERSION=0
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MGLS_LICENSE_FILE=29000@itcc-winapp3.campus.ads.umass.edu
+MGC_HOME=/opt/mentor/calibre/aok_cal_2022.3_26.14
+LOADEDMODULES=
+LIBGL_ALWAYS_INDIRECT=y
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HOSTTYPE=x86_64-linux
+GROUP=wneel
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1328/bus
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@vlsicad.ecs.umass.edu
+CDS_INST_DIR=/opt/cadence/ic251_hotfix/install
+CDK_DIR=/opt/cadence/ncsu_cdk/ncsu-cdk-1.6.0.beta
+CALIBRE_HOME=/opt/mentor/calibre/aok_cal_2022.3_26.14
+ASSURAHOME=/opt/cadence/assura
+0
+0
+2
+1773874602 ../sim/unlock_fsm_tb.sv
+1773865080 ../rtl/unlock_fsm.v
+4
+1725336088 /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libvirsim.so
+1725334290 /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/liberrorinf.so
+1725334282 /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so
+1725334269 /opt/synopsys/vcs/vcs/W-2024.09/linux64/lib/libvfs.so
+1773874605 simv.daidir
+-1 partitionlib

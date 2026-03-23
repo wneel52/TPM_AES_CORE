@@ -1,0 +1,8 @@
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_core.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_decipher_block.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_encipher_block.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_inv_sbox.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_key_mem.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/rtl/aes_sbox.v
+/home/ece558_658_2025/wneel/ECE559/aes-core/sim/tb_aes.v
