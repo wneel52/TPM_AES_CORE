@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1771906522.785555163, "rt":0.29, "ut":0.13, "st":0.09}}
-{"vcselab":{"timestamp_begin":1771906523.155315961, "rt":0.29, "ut":0.20, "st":0.06}}
-{"link":{"timestamp_begin":1771906523.503288308, "rt":0.17, "ut":0.12, "st":0.05}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1771906522.488136627}
-{"VCS_COMP_START_TIME": 1771906522.488136627}
-{"VCS_COMP_END_TIME": 1771906523.781816496}
-{"VCS_USER_OPTIONS": "-sverilog -full64 -debug_access+all ../rtl/key_vault_rom.v ../sim/tb_key_vault_rom.sv -o simv"}
-{"vcs1": {"peak_mem": 313212}}
-{"vcselab": {"peak_mem": 162192}}
