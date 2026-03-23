@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1772747900.106461673, "rt":0.39, "ut":0.13, "st":0.08}}
-{"vcselab":{"timestamp_begin":1772747900.572336067, "rt":0.19, "ut":0.13, "st":0.03}}
-{"link":{"timestamp_begin":1772747900.812684587, "rt":0.21, "ut":0.13, "st":0.08}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1772747899.832484582}
-{"VCS_COMP_START_TIME": 1772747899.832484582}
-{"VCS_COMP_END_TIME": 1772747901.084885669}
-{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/key_commit_buffer.v ../../comparator/rtl/key_activation_compare.v ../sim/tb_key_commit_buffer.sv -o simv"}
-{"vcs1": {"peak_mem": 312132}}
-{"vcselab": {"peak_mem": 162152}}
