@@ -1,7 +1,0 @@
-Command exited with non-zero status 255
-{"vcs1":{"timestamp_begin":1773872960.909299723, "rt":0.13, "ut":0.05, "st":0.04}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1773872960.647159971}
-{"VCS_COMP_START_TIME": 1773872960.647159971}
-{"VCS_COMP_END_TIME": 1773872961.105719588}
-{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/unlock_fsm.v ../sim/unlock_fsm_tb.sv -o simv"}
-{"vcs1": {"peak_mem": 296416}}
