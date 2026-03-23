@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1773948739.339826877, "rt":0.22, "ut":0.11, "st":0.08}}
-{"vcselab":{"timestamp_begin":1773948739.633421703, "rt":0.20, "ut":0.14, "st":0.02}}
-{"link":{"timestamp_begin":1773948739.889844588, "rt":0.20, "ut":0.13, "st":0.08}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1773948739.076765431}
-{"VCS_COMP_START_TIME": 1773948739.076765431}
-{"VCS_COMP_END_TIME": 1773948740.153663014}
-{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/aes_input_block_buffer.v ../sim/tb_aes_input_block_buffer.sv -o simv"}
-{"vcs1": {"peak_mem": 311888}}
-{"vcselab": {"peak_mem": 162152}}
