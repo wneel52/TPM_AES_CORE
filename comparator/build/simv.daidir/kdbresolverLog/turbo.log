@@ -1,3 +1,0 @@
-Command Line: /opt/synopsys/vcs/vcs/W-2024.09/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir /home/ece558_658_2025/wneel/ECE559/comparator/build/simv.daidir -saveLevel -ssv -ssy -q -logdir /home/ece558_658_2025/wneel/ECE559/comparator/build/simv.daidir/kdbresolverLog
-uname(Linux vlsicad.ecs.umass.edu 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 1 04:16:12 EDT 2024 x86_64)
-au time 0.022693 0.003993 0.015010 delta 96075776 96075776 total 352088064 352088064
