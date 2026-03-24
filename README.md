@@ -26,3 +26,6 @@ See `docs/` for:
 - port definitions
 - integration notes
 - system wiring summary
+
+## Sources
+AES Engine: https://github.com/secworks/aes
