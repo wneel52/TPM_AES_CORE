@@ -15,6 +15,7 @@ This project implements a TPM-style secure wrapper around an AES core. It includ
 - `aes_input_buffer/` - AES input block staging
 - `results_buffer/` - AES result capture and readback
 - `aes-core/` - AES encryption/decryption engine
+-  `top/` - top level directory, full system integration
 
 ## Security/Control Rule
 AES operation is only permitted when:
