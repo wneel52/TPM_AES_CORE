@@ -1,4 +1,5 @@
 # TPM-Style AES Core
+Author: William Neel
 
 ## Overview
 This project implements a TPM-style secure wrapper around an AES core. It includes:
