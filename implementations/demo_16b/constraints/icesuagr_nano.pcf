@@ -1,0 +1,10 @@
+#   BOARD PINS
+
+#   FPGA pins:
+
+set_io LED0 A1
+set_io LED1 C2
+set_io LED2 E3
+set_io LED3 C6
+
+set_io CLK D1
