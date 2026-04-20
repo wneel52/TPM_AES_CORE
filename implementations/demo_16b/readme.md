@@ -1,19 +1,35 @@
-<h1> 16 Bit Platform Key Functionality Demo</h1>
+# 16-Bit Platform Key Functionality Demo
 
-This demo is intended to be ran on an ICESugar-Nano
-Github Repo for the ICESugar can be found here: https://github.com/wuxx/icesugar-nano/tree/main
-Explains toolchain & basic functions needed to build this demo on an ICESugar-nano FPGA
+This demo is intended to run on the **iCESugar-Nano** FPGA board.
 
-Behavior:
-After boot, internal sequencer submits three 16-bit keys.
-On success, unlocked + aes_enable assert.
+The iCESugar-Nano GitHub repository can be found here:  
+https://github.com/wuxx/icesugar-nano/tree/main
 
-The expected output is as follows:
-  - Clock: 12 MHz
-  - LED0 heartbeat
-  - LED1 unlocked
-  - LED2 aes_enable
-  - LED3 state_debug[1] : Should go high before LED1 and LED2 indicating the WAIT_PK2 (waiting for second platform key (state 2)) occurs before the unlock as LED2 repserents the state_debug singals MSB which correlates to states 2 and 3
+That repository includes the toolchain setup and the basic board information needed to build and program this demo.
 
-Demo: 
+## Demo Behavior
+
+After boot, an internal sequencer submits three 16-bit platform keys to the authentication controller.  
+If all three keys are accepted in the correct sequence, the controller asserts:
+
+- `unlocked`
+- `aes_enable`
+
+## Expected Output
+
+**Clock:** 12 MHz
+
+- **LED0** — heartbeat
+- **LED1** — `unlocked`
+- **LED2** — `aes_enable`
+- **LED3** — `state_debug[1]`
+
+### LED3 Behavior
+
+`LED3` should go high before `LED1` and `LED2`.
+
+This indicates that the controller reaches the intermediate wait state before the final unlock condition is reached. Since `LED3` is driven by `state_debug[1]`, it reflects the MSB of the controller state encoding, which becomes active in the later wait/unlock progression.
+
+## Demo Video
+
 https://github.com/user-attachments/assets/192a6adc-cf0c-41f8-a9ec-5ffe0928e9e5
