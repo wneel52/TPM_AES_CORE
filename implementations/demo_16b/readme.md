@@ -1,4 +1,4 @@
-<h1> *16 Bit Platform Key Functionality Demo* </h1>
+<h1> 16 Bit Platform Key Functionality Demo</h1>
 
 This demo is intended to be ran on an ICESugar-Nano
 Github Repo for the ICESugar can be found here: https://github.com/wuxx/icesugar-nano/tree/main
