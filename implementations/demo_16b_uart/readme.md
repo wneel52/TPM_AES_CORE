@@ -9,7 +9,7 @@ That repository includes programming instructions, board files, and general tool
 
 ---
 
-# Project Overview
+# Demo Overview
 
 This design demonstrates a **staged platform-key authentication controller** implemented on FPGA hardware.
 
