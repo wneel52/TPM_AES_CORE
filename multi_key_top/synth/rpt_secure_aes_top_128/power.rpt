@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : secure_aes_top_KEY_W128
+Version: T-2022.03-SP4
+Date   : Sun Apr 26 11:08:50 2026
+****************************************
+
+
+Library(s) Used:
+
+    slow_vdd1v0 (File: /home/ece558_658_2025/wneel/ECE558/ECE559/multi_key_top/synth/gpdk045_slow.db)
+
+
+Operating Conditions: PVT_0P9V_125C   Library: slow_vdd1v0
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.9  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 701.4998 uW   (99%)
+  Net Switching Power  =   7.8597 uW    (1%)
+                         ---------
+Total Dynamic Power    = 709.3595 uW  (100%)
+
+Cell Leakage Power     = 534.3575 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.6984            0.0000            0.0000            0.6984  (  98.38%)  i
+register       1.0601e-03        1.3858e-04        3.0648e+05        1.5051e-03  (   0.21%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  2.0314e-03        7.7211e-03        2.2786e+05        9.9804e-03  (   1.41%)
+--------------------------------------------------------------------------------------------------
+Total              0.7015 mW     7.8597e-03 mW     5.3435e+05 pW         0.7099 mW
+1

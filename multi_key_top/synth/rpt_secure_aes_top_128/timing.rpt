@@ -1,0 +1,667 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : secure_aes_top_KEY_W128
+Version: T-2022.03-SP4
+Date   : Sun Apr 26 11:08:50 2026
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P9V_125C   Library: slow_vdd1v0
+Wire Load Model Mode: top
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[7][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4114/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[7][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[7][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[4][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4111/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[4][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[4][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[3][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4110/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[3][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[3][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[6][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4113/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[6][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[6][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[11][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4118/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[11][27]/D (DFFRHQX1)    0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[11][27]/CK (DFFRHQX1)   0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[14][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4121/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[14][27]/D (DFFRHQX1)    0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[14][27]/CK (DFFRHQX1)   0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[5][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4112/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[5][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[5][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[13][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4120/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[13][27]/D (DFFRHQX1)    0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[13][27]/CK (DFFRHQX1)   0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[8][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4115/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[8][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[8][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+  Startpoint: u_auth_controller_top/unit_fsm/state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_aes_core/keymem/key_mem_reg[9][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_auth_controller_top/unit_fsm/state_reg[0]/CK (DFFQXL)
+                                                        0.0000 #   0.0000 r
+  u_auth_controller_top/unit_fsm/state_reg[0]/Q (DFFQXL)
+                                                        0.1791     0.1791 r
+  U3508/Y (NAND2XL)                                     0.0788     0.2579 f
+  U3509/Y (NOR2XL)                                      0.0893     0.3472 r
+  U3032/Y (NOR2BX1)                                     0.1340     0.4812 r
+  U3212/Y (NAND2BXL)                                    0.0989     0.5802 f
+  U3025/Y (AOI221X1)                                    0.1265     0.7067 r
+  U2874/Y (NAND2XL)                                     0.1274     0.8341 f
+  U3018/Y (OAI2BB1X1)                                   0.1601     0.9941 f
+  U3016/Y (INVX1)                                       0.1787     1.1728 r
+  U3014/Y (NOR2X2)                                      0.1708     1.3436 f
+  U3095/Y (AOI22XL)                                     0.1333     1.4769 r
+  U2777/Y (OAI211XL)                                    0.1444     1.6213 f
+  U3524/Y (BUFX2)                                       0.1591     1.7804 f
+  u_aes_core/sbox_inst/sboxw[16] (aes_sbox)             0.0000     1.7804 f
+  u_aes_core/sbox_inst/U863/Y (INVX1)                   0.1048     1.8851 r
+  u_aes_core/sbox_inst/U865/Y (NAND2X1)                 0.2080     2.0931 f
+  u_aes_core/sbox_inst/U511/Y (INVXL)                   0.2570     2.3501 r
+  u_aes_core/sbox_inst/U866/Y (NOR2X1)                  0.1970     2.5471 f
+  u_aes_core/sbox_inst/U463/Y (INVXL)                   0.1622     2.7093 r
+  u_aes_core/sbox_inst/U257/Y (OAI211X1)                0.1698     2.8791 f
+  u_aes_core/sbox_inst/U6/Y (NOR4XL)                    0.1224     3.0015 r
+  u_aes_core/sbox_inst/U436/Y (OAI221XL)                0.2005     3.2020 f
+  u_aes_core/sbox_inst/U33/Y (OAI211XL)                 0.1230     3.3250 r
+  u_aes_core/sbox_inst/U86/Y (OAI211X1)                 0.1401     3.4651 f
+  u_aes_core/sbox_inst/U552/Y (AOI22XL)                 0.1355     3.6006 r
+  u_aes_core/sbox_inst/U923/Y (NAND4X1)                 0.2559     3.8565 f
+  u_aes_core/sbox_inst/new_sboxw[19] (aes_sbox)         0.0000     3.8565 f
+  u_aes_core/keymem/new_sboxw[19] (aes_key_mem)         0.0000     3.8565 f
+  u_aes_core/keymem/U554/Y (XNOR2X1)                    0.2141     4.0707 f
+  u_aes_core/keymem/U74/Y (XNOR2XL)                     0.1589     4.2296 r
+  u_aes_core/keymem/U522/Y (XNOR2X1)                    0.1952     4.4248 f
+  u_aes_core/keymem/U15/Y (XNOR2X1)                     0.1742     4.5990 r
+  u_aes_core/keymem/U471/Y (XNOR2X1)                    0.1817     4.7807 f
+  u_aes_core/keymem/U472/Y (NOR2XL)                     0.1649     4.9455 r
+  u_aes_core/keymem/U4116/Y (MX2XL)                     0.2590     5.2046 r
+  u_aes_core/keymem/key_mem_reg[9][27]/D (DFFRHQX1)     0.0000     5.2046 r
+  data arrival time                                                5.2046
+
+  clock clk (rise edge)                                10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  u_aes_core/keymem/key_mem_reg[9][27]/CK (DFFRHQX1)    0.0000     9.9500 r
+  library setup time                                   -0.1211     9.8289
+  data required time                                               9.8289
+  --------------------------------------------------------------------------
+  data required time                                               9.8289
+  data arrival time                                               -5.2046
+  --------------------------------------------------------------------------
+  slack (MET)                                                      4.6243
+
+
+1

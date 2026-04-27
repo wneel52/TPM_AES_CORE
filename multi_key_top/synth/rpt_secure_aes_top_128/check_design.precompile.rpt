@@ -1,0 +1,566 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP4
+Date:        Sun Apr 26 11:07:31 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     27
+    Shorted outputs (LINT-31)                                      13
+    Constant outputs (LINT-52)                                     14
+
+Cells                                                             260
+    Connected to power or ground (LINT-32)                        258
+    Nets connected to multiple pins on same cell (LINT-33)          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[8]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[17]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[24]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[29]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[88]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[92]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[98]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[102]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[106]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[110]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[114]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[118]'. (LINT-31)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to output port 'key_out[122]'. (LINT-31)
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'encdec' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[255]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[254]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[253]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[252]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[251]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[250]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[249]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[248]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[247]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[246]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[245]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[244]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[243]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[242]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[241]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[240]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[239]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[238]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[237]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[236]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[235]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[234]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[233]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[232]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[231]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[230]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[229]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[228]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[227]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[226]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[225]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[224]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[223]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[222]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[221]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[220]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[219]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[218]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[217]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[216]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[215]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[214]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[213]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[212]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[211]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[210]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[209]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[208]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[207]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[206]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[205]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[204]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[203]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[202]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[201]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[200]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[199]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[198]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[197]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[196]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[195]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[194]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[193]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[192]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[191]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[190]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[189]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[188]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[187]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[186]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[185]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[184]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[183]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[182]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[181]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[180]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[179]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[178]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[177]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[176]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[175]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[174]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[173]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[172]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[171]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[170]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[169]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[168]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[167]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[166]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[165]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[164]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[163]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[162]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[161]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[160]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[159]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[158]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[157]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[156]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[155]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[154]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[153]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[152]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[151]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[150]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[149]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[148]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[147]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[146]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[145]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[144]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[143]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[142]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[141]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[140]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[139]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[138]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[137]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[136]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[135]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[134]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[133]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[132]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[131]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[130]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[129]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[128]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[127]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[126]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[125]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[124]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[123]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[122]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[121]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[120]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[119]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[118]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[117]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[116]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[115]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[114]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[113]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[112]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[111]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[110]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[109]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[108]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[107]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[106]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[105]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[104]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[103]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[102]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[101]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[100]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[99]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[98]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[97]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[96]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[95]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[94]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[93]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[92]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[91]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[90]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[89]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[88]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[87]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[86]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[85]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[84]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[83]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[82]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[81]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[80]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[79]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[78]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[77]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[76]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[75]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[74]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[73]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[72]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[71]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[70]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[69]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[68]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[67]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[66]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[65]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[64]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[63]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[62]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[61]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[60]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[59]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[58]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[57]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[56]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[55]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[54]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[53]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[52]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[51]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[50]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[49]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[48]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[47]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[46]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[45]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[44]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[43]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[42]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[41]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[40]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[39]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[38]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[37]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[36]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[35]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[34]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[33]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[32]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[31]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[30]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[29]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[28]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[27]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[26]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[25]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[24]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[23]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[22]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[21]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[20]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[19]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[18]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[17]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[16]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[15]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[14]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[13]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[12]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[11]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[10]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[9]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[8]' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[7]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[6]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[5]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[4]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[3]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[2]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[1]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'key[0]' is connected to logic 1. 
+Warning: In design 'secure_aes_top_KEY_W128', a pin on submodule 'u_aes_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'keylen' is connected to logic 0. 
+Warning: In design 'secure_aes_top_KEY_W128', the same net is connected to more than one pin on submodule 'u_aes_core'. (LINT-33)
+   Net 'n31111' is connected to pins 'encdec', 'key[116]'', 'key[112]', 'key[109]', 'key[105]', 'key[101]', 'key[100]', 'key[97]', 'key[96]', 'key[94]', 'key[90]', 'key[86]', 'key[84]', 'key[82]', 'key[80]', 'key[78]', 'key[77]', 'key[74]', 'key[73]', 'key[70]', 'key[69]', 'key[68]', 'key[66]', 'key[65]', 'key[64]', 'key[63]', 'key[59]', 'key[55]', 'key[52]', 'key[51]', 'key[48]', 'key[47]', 'key[45]', 'key[43]', 'key[41]', 'key[39]', 'key[37]', 'key[36]', 'key[35]', 'key[33]', 'key[32]', 'key[31]', 'key[30]', 'key[27]', 'key[26]', 'key[23]', 'key[22]', 'key[20]', 'key[19]', 'key[18]', 'key[16]', 'key[15]', 'key[14]', 'key[13]', 'key[11]', 'key[10]', 'key[9]', 'key[7]', 'key[6]', 'key[5]', 'key[4]', 'key[3]', 'key[2]', 'key[1]', 'key[0]'.
+Warning: In design 'secure_aes_top_KEY_W128', the same net is connected to more than one pin on submodule 'u_aes_core'. (LINT-33)
+   Net 'n31110' is connected to pins 'key[255]', 'key[254]'', 'key[253]', 'key[252]', 'key[251]', 'key[250]', 'key[249]', 'key[248]', 'key[247]', 'key[246]', 'key[245]', 'key[244]', 'key[243]', 'key[242]', 'key[241]', 'key[240]', 'key[239]', 'key[238]', 'key[237]', 'key[236]', 'key[235]', 'key[234]', 'key[233]', 'key[232]', 'key[231]', 'key[230]', 'key[229]', 'key[228]', 'key[227]', 'key[226]', 'key[225]', 'key[224]', 'key[223]', 'key[222]', 'key[221]', 'key[220]', 'key[219]', 'key[218]', 'key[217]', 'key[216]', 'key[215]', 'key[214]', 'key[213]', 'key[212]', 'key[211]', 'key[210]', 'key[209]', 'key[208]', 'key[207]', 'key[206]', 'key[205]', 'key[204]', 'key[203]', 'key[202]', 'key[201]', 'key[200]', 'key[199]', 'key[198]', 'key[197]', 'key[196]', 'key[195]', 'key[194]', 'key[193]', 'key[192]', 'key[191]', 'key[190]', 'key[189]', 'key[188]', 'key[187]', 'key[186]', 'key[185]', 'key[184]', 'key[183]', 'key[182]', 'key[181]', 'key[180]', 'key[179]', 'key[178]', 'key[177]', 'key[176]', 'key[175]', 'key[174]', 'key[173]', 'key[172]', 'key[171]', 'key[170]', 'key[169]', 'key[168]', 'key[167]', 'key[166]', 'key[165]', 'key[164]', 'key[163]', 'key[162]', 'key[161]', 'key[160]', 'key[159]', 'key[158]', 'key[157]', 'key[156]', 'key[155]', 'key[154]', 'key[153]', 'key[152]', 'key[151]', 'key[150]', 'key[149]', 'key[148]', 'key[147]', 'key[146]', 'key[145]', 'key[144]', 'key[143]', 'key[142]', 'key[141]', 'key[140]', 'key[139]', 'key[138]', 'key[137]', 'key[136]', 'key[135]', 'key[134]', 'key[133]', 'key[132]', 'key[131]', 'key[130]', 'key[129]', 'key[128]', 'key[127]', 'key[126]', 'key[125]', 'key[124]', 'key[123]', 'key[122]', 'key[121]', 'key[120]', 'key[119]', 'key[118]', 'key[117]', 'key[115]', 'key[114]', 'key[113]', 'key[111]', 'key[110]', 'key[108]', 'key[107]', 'key[106]', 'key[104]', 'key[103]', 'key[102]', 'key[99]', 'key[98]', 'key[95]', 'key[93]', 'key[92]', 'key[91]', 'key[89]', 'key[88]', 'key[87]', 'key[85]', 'key[83]', 'key[81]', 'key[79]', 'key[76]', 'key[75]', 'key[72]', 'key[71]', 'key[67]', 'key[62]', 'key[61]', 'key[60]', 'key[58]', 'key[57]', 'key[56]', 'key[54]', 'key[53]', 'key[50]', 'key[49]', 'key[46]', 'key[44]', 'key[42]', 'key[40]', 'key[38]', 'key[34]', 'key[29]', 'key[28]', 'key[25]', 'key[24]', 'key[21]', 'key[17]', 'key[12]', 'key[8]', 'keylen'.
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[126]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[122]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[118]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[114]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[110]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[106]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[102]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[98]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[92]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[88]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[29]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[24]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[17]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'platform_key_store_KEY_W128', output port 'key_out[8]' is connected directly to 'logic 0'. (LINT-52)
+1

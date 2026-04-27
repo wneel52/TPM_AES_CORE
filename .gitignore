@@ -1,0 +1,10 @@
+*.vcd
+*.log
+*.jou
+*.pb
+simv
+ucli.key
+csrc/
+DVEfiles/
+__pycache__/
+*.pyc

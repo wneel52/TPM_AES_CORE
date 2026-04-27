@@ -1,0 +1,85 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'secure_aes_top_KEY_W128' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : secure_aes_top_KEY_W128
+Version: T-2022.03-SP4
+Date   : Sun Apr 26 11:08:50 2026
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:            31.0000
+  Critical Path Length:        5.2046
+  Critical Path Slack:         4.6243
+  Critical Path Clk Period:   10.0000
+  Total Negative Slack:        0.0000
+  No. of Violating Paths:      0.0000
+  Worst Hold Violation:        0.0000
+  Total Hold Violation:        0.0000
+  No. of Hold Violations:      0.0000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        521
+  Leaf Cell Count:              11572
+  Buf/Inv Cell Count:            2111
+  Buf Cell Count:                 106
+  Inv Cell Count:                2005
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      9077
+  Sequential Cell Count:         2495
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      15404.3643
+  Noncombinational Area:   15359.5623
+  Buf/Inv Area:             1576.9620
+  Total Buffer Area:         187.0740
+  Total Inverter Area:      1389.8880
+  Macro/Black Box Area:        0.0000
+  Net Area:                    0.0000
+  -----------------------------------
+  Cell Area:               30763.9267
+  Design Area:             30763.9267
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         11666
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: vlsicad.ecs.umass.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                  0.3828
+  Logic Optimization:                1.9064
+  Mapping Optimization:             16.1995
+  -----------------------------------------
+  Overall Compile Time:             75.1198
+  Overall Compile Wall Clock Time:  77.7504
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.0000  TNS: 0.0000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.0000  TNS: 0.0000  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

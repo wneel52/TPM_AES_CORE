@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : secure_aes_top_KEY_W128
+Version: T-2022.03-SP4
+Date   : Sun Apr 26 11:08:50 2026
+****************************************
+
+Library(s) Used:
+
+    slow_vdd1v0 (File: /home/ece558_658_2025/wneel/ECE558/ECE559/multi_key_top/synth/gpdk045_slow.db)
+
+Number of ports:                          644
+Number of nets:                         11930
+Number of cells:                        11574
+Number of combinational cells:           9077
+Number of sequential cells:              2495
+Number of macros/black boxes:               0
+Number of buf/inv:                       2111
+Number of references:                      60
+
+Combinational area:              15404.364344
+Buf/Inv area:                     1576.962035
+Noncombinational area:           15359.562343
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 30763.926686
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  -----------
+secure_aes_top_KEY_W128           30763.9267    100.0   4684.7161   3447.3601  0.0000  secure_aes_top_KEY_W128
+u_aes_core/keymem                 20039.8324     65.1   8127.6302  11912.2023  0.0000  aes_key_mem
+u_aes_core/sbox_inst               2592.0181      8.4   2592.0181      0.0000  0.0000  aes_sbox
+--------------------------------  ----------  -------  ----------  ----------  ------  -----------
+Total                                                  15404.3643  15359.5623  0.0000
+
+1
