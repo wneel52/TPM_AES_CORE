@@ -162,42 +162,6 @@ Validated features:
 * Real hardware status indication
 * Secure AES gating behavior
 
----
-
-## Tools Used
-
-* Synopsys VCS
-* Synopsys Design Compiler
-* Yosys
-* nextpnr-ice40
-* Verilog / SystemVerilog
-
----
-
-## Educational Focus
-
-This project explores practical concepts in:
-
-* Secure hardware design
-* Hardware roots of trust
-* RTL modularity
-* ASIC synthesis tradeoffs
-* FPGA prototyping
-* Verification methodology
-* Cryptographic accelerator integration
-
----
-
-## Future Work
-
-* TRNG-based key generation
-* Side-channel resistance hardening
-* AES-256 support
-* Secure boot integration
-* Anti-tamper sensor expansion
-
----
-
 ## References
 
 * NIST FIPS-197 Advanced Encryption Standard (AES)
